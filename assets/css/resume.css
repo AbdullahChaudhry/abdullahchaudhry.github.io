@@ -1,0 +1,10 @@
+body {
+  background-color: grey;
+}
+
+#resume-wrapper {
+  width: 900px;
+  height: 1273px;
+  margin: 0 auto;
+  background-color: white;
+}
