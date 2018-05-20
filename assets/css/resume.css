@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(65, 65, 161)
+}
+
 body {
-  background-color: grey;
+  background-color: #666;
 }
 
 #resume-wrapper {
@@ -7,4 +23,90 @@ body {
   height: 1273px;
   margin: 0 auto;
   background-color: white;
+  display: flex;
+}
+
+.left {
+  border-right: 1px solid #eee;
+  padding: 40px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.designation {
+  line-height: 36px;
+}
+
+.info {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-weight: inherit;
+  margin-bottom: 30px;
+}
+
+.section-wrapper {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.experience {
+   margin-bottom: 25px;
+}
+
+.subtitle {
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.content ul {
+  margin-left: 16px;
+}
+
+.content {
+  color: #545454;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.social {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  max-width: 200px;
+}
+
+.social i {
+  color: #fff;
+  background-color: #4a4a4a;
+  width: 38px;
+  height: 38px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 9px 0;
+}
+
+.social i:hover {
+  background-color: rgb(65, 65, 161)
+}
+
+.contact i {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.contact {
+  margin-bottom: 20px;
 }
